@@ -1,5 +1,5 @@
-Twitch
-======
+Twitchwatcher
+=============
 
 A tiny wrapper for livestreamer to watch twitch.tv streams.
 
@@ -14,12 +14,14 @@ Running stream: http://twitch.tv/amazhs
 ...
 ```
 
+You can also use `twitchwatcher` executable that does the same.
+
 ## Installation
 
 Install via `pip`:
 
 ```
-$ (sudo) pip install twitch
+$ (sudo) pip install twitchwatcher
 ```
 
 ### Livestreamer setup

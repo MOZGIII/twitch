@@ -12,7 +12,7 @@ def normalize_stream_url(stream_url):
         return stream_url
     return "http://twitch.tv/%s" % stream_url
 
-def main():  
+def main():
     if len(sys.argv) < 2:
         usage()
 

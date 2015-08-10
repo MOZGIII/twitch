@@ -8,14 +8,14 @@ https://github.com/pypa/sampleproject
 from setuptools import setup, find_packages
 
 setup(
-    name='twitch',
+    name='twitchwatcher',
 
     version='0.0.1',
 
     description='A tiny wrapper for livestreamer to watch twitch streams',
     long_description='A tiny wrapper to launch livestreamer made specificly for twitch streams',
 
-    url='https://github.com/MOZGIII/twitch',
+    url='https://github.com/MOZGIII/twitchwatcher',
 
     author='MOZGIII',
     author_email='mike-n@narod.ru',
@@ -37,7 +37,7 @@ setup(
         'Programming Language :: Python :: 3',
     ],
 
-    keywords='twitch livestreamer stream',
+    keywords='twitch livestreamer stream twitch.tv',
 
     packages=find_packages(exclude=['contrib', 'docs', 'tests*']),
 
@@ -45,7 +45,8 @@ setup(
 
     entry_points={
         'console_scripts': [
-            'twitch=twitch:main',
+            'twitchwatcher=twitchwatcher:main',
+            'twitch=twitchwatcher:main',
         ],
     },
 )
